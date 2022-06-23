@@ -51,7 +51,7 @@ UserSchema.pre("findOneAndUpdate", async function (next) {
     const salt = genSaltSync(10);
     const hashedPassword = hashSync(this._update.password, salt);
     this._update.password = hashedPassword;
-    next();
+    next();//
 });
 
 UserSchema.pre('remove', function (next) {
