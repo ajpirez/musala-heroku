@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AACA,SACI,cAAe,CACf,YAAa,CACb,UACJ,CAEA,KACI,kCACJ","file":"main.e2e2f088.chunk.css","sourcesContent":["\n.miAlert {\n    position: fixed;\n    bottom: 100px;\n    right: 50px;\n}\n\n.mio {\n    background-color: #005cbf !important;\n}\n\n"]}
